@@ -182,4 +182,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     height: 600px;
     width: 65%;
     margin: 50px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
