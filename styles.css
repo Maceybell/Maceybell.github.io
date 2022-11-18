@@ -21,7 +21,7 @@ body{
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 30s linear infinite;
+  animation: textclip 10s linear infinite;
   display: inline-block;
       font-size: 100px;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
