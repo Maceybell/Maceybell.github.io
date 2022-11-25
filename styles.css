@@ -41,6 +41,12 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     right: 0px;
 }
 
+@media screen and (max-width: 600px){
+  .macey{
+    height: 430px;
+  }
+}
+
 .speech-bubble{
     height:200px;
     position: fixed;
@@ -181,9 +187,9 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
 .about{
     width: 57%;
-    margin: 6%;
+    margin: 3%;
     position: relative;
-    bottom: 25px;
+    
 }
 .about-text{
     border-radius: 2;
@@ -208,9 +214,10 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
 .slide-container{
     width: 80%;
+    max-width: 1000px;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
+    top: 35%;
     left: 50%;
     overflow: hidden;
     border: 10px solid #ffffff;
@@ -265,7 +272,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     height: 35px;
     font-size: 15px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     padding: 5px 90px;
     z-index: 20;
 
