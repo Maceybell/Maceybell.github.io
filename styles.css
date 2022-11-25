@@ -142,6 +142,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   .dropdown-about {
     position: relative;
     display: inline-block;
+    z-index: 2;
     
   }
   
@@ -149,7 +150,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   .dropdown-content-about {
     display: none;
     position: absolute;
-    background-color: #121212cf;
+    background-color: #121212d9;
     min-width: 160px;
     z-index: 1;
     border: yellow;
@@ -344,6 +345,34 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   .home-btn:hover {
     border-color: #fdfbb2;
     color:#fdfbb2
+  }
+
+  .fa{
+    font-size: 36px;
+  }
+
+  .contact{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:25px;
+    position: relative;
+    z-index: 1;
+    
+  }
+
+  j{
+    color:#ffffff;
+    font-size: 50px;
+  }
+
+  text{
+    color:#f6f15c;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .github{
+    color: white;
   }
 
   
