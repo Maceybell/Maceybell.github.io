@@ -267,11 +267,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
   }
 
-  #home-nav-ul{
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-  }
+  
   
   .for {
     width: 150px;
@@ -320,6 +316,28 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     justify-content: space-around;
     flex-wrap: wrap;
 
+  }
+
+  #home-nav-ul{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline ;
+    margin: 8px;
+  }
+
+  .home-btn{
+    padding:7px;
+    font-size: 15px;
+    border-color:#89f1ff;
+    background-color: black;
+    color:hsl(198, 97%, 87%);
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 500ms ease-in-out;
+  }
+
+  .home-btn:hover {
+    border-color: #fdfbb2;
+    color:#fdfbb2
   }
 
   
